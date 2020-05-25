@@ -1,0 +1,65 @@
+$VISION
+* File:		C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection.inpx
+* Comment:	
+* Date:		3/20/2020 1:12:23 AM
+* PTV Vissim:	11.00 [10]
+* 
+* Table: Signal Controllers
+* 
+* NO: No, Number (Unique number of the SC)
+* NAME: Name, Name (Name of the signal control)
+* TYPE: Type, Type (Signal control procedures. A tab for the definition of attributes is displayed for the selected signal control procedures.)
+* CYCTM: CycTm, Cycle time (Optional cycle time. Duration in seconds) [s]
+* CYCTMISVAR: CycTmIsVar, Cycle time is variable (Cycle time is variable)
+* SUPPLYFILE1: SupplyFile1, Supply file 1 (Configuration file #1 for the signal control. Depending on the type of the signal controller, different files are required.)
+* SUPPLYFILE2: SupplyFile2, Supply file 2 (Configuration file #2 for the signal control. Depending on the type of the signal controller, different files are required.)
+* PROGNO: ProgNo, Program number (The signal program or daily signal program list that you want to simulate (Defining and editing daily signal program lists). A change of program is possible if the simulation run is in single-step mode. If the new signal program number is confirmed with OK, the changeover is triggered in the next simulation second.)
+* 
+* No; Name; Type; CycTm; CycTmIsVar; SupplyFile1; SupplyFile2; ProgNo
+*
+$SIGNALCONTROLLER:NO;NAME;TYPE;CYCTM;CYCTMISVAR;SUPPLYFILE1;SUPPLYFILE2;PROGNO
+1;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+2;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+3;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+4;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+5;60;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection5.sig;1
+6;110;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+7;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+8;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+9;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+10;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+11;60;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection5.sig;1
+12;80;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+13;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+14;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+15;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+16;80;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+17;110;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+18;110;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+19;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+20;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+21;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+22;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+23;60;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection5.sig;1
+24;80;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+25;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+26;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+27;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+28;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+29;60;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection5.sig;1
+30;80;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+33;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+36;110;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection6.sig;1
+37;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+38;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+39;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+40;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+41;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+42;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+43;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+44;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+45;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+46;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+47;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+48;180;Fixed time;0;0;C:\Program Files\PTV Vision\PTV Vissim 11\Exe\vissig.config;C:\Users\HUGUO\Desktop\MFD_test\network\50_network\intersection1.sig;1
+

@@ -1,0 +1,15 @@
+The error occurred in line 180 of file c:\build\vissim\vissim110\src\network\generated\vehicleroutestaticbase.cpp in function class CVehicleRoutingDecisionStatic *__cdecl CVehicleRouteStaticBase::GetOwner(void).
+Information:
+not available
+Stack:
+0x000000D72871E4C8
+ExceptionCode = -1073741819
+ExceptionFlags = 0
+ExceptionAddress = 0x7ff9fb2b2856
+Simulation: Run 0 1.00 sec, The error occurred in line 638 of file c:\build\vissim\vissim110\vissim\vissim\netzwin.cpp in function long __cdecl main_eh(void *,struct XVT2DOTNET::s_event *).
+Information:
+not available
+Stack:
+0x000000C559CFE550
+
+Simulation: Run 0 1.00 sec, 
